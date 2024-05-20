@@ -58,3 +58,6 @@ html_static_path = ["_static"]
 html_title = f"Vysion Documentation"
 html_logo = "_static/vysion.png"
 html_favicon = "_static/vysion1.ico"
+
+# Napoleon settings
+napoleon_numpy_docstring = True
