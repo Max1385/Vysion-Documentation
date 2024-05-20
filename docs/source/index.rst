@@ -1,22 +1,24 @@
-Welcome to Lumache's documentation!
-===================================
-
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
+Welcome to Vysion's documentation!
+=========================================
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Table of Contents
+   :hidden:
 
-   usage
+   intro
+   discord
    api
+   whats_new
+
+Getting Started
+---------------
+Here are a few links to help you get started.
+
+- **First steps :** doc:`/intro`
+- **Modules - Admin Commands** doc:`/admin`
+- **Modules - User Commands** :`/user`
+
+Getting help
+----
+- If you need help with anything, you are welcome to join our `discord support server <https://bit.ly/vysion-support>`_.
