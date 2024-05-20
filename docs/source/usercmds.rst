@@ -4,7 +4,7 @@ User Commands
 .. toctree::
     :maxdepth: 4
 
-    user/economy
+    user/economy:expand
     user/feedback
     user/help
     user/joke
