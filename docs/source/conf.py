@@ -1,35 +1,59 @@
 # Configuration file for the Sphinx documentation builder.
 
-# -- Project information
+# For the full list of built-in configuration values, see the documentation:
+# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+# Project information
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-release = '0.1'
-version = '0.1.0'
+import os
+import sys
+from datetime import date
 
-# -- General configuration
+sys.path.insert(0, os.path.abspath("../"))
+
+project = "Vysion"
+copyright = f"{date.today().year}, Max1385"
+author = "Max1385"
+
+
+# General configuration
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    "sphinx.ext.autodoc",
+    "sphinx.ext.todo",
+    "sphinx.ext.viewcode",
+    "sphinx.ext.napoleon",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.intersphinx",
+    "sphinx_autodoc_typehints",
+    "sphinx_copybutton",
 ]
 
+simplify_optional_unions = True
+
+autodoc_member_order = "bysource"
+
 intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+    "py": ("https://docs.python.org/3", None),
+    "aio": ("https://docs.aiohttp.org/en/stable/", None),
+    "req": ("https://requests.readthedocs.io/en/latest/", None),
+    "dc": ("https://docs.pycord.dev/en/master/", None),
+    "dpy": ("https://discordpy.readthedocs.io/en/stable/", None),
+    "sql": ("https://aiosqlite.omnilib.dev/en/stable/", None),
 }
-intersphinx_disabled_domains = ['std']
 
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
-# -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+# Options for HTML output and furo customisation
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+# https://pradyunsg.me/furo/customisation/
 
-# -- Options for EPUB output
-epub_show_urls = 'footnote'
+html_theme = "furo"
+html_static_path = ["_static"]
+
+html_title = f"Vysion Documentation"
+html_logo = "_static/vysion.png"
+html_favicon = "_static/vysion1.ico"
