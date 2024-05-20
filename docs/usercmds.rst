@@ -2,9 +2,9 @@ User Commands
 =============
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
 
-    user/economy:expand
+    user/economy
     user/feedback
     user/help
     user/joke
