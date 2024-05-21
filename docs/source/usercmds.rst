@@ -14,7 +14,7 @@ Economy System
 - Give other users a certain amount of diamonds: ``/diamond give [member] [amount] [description]`` -> amount = amount of diamonds, description = if you want to add a nice text.
 - Use ``/diamond event`` to play an event to either win diamonds or lose diamonds. We wish you good luck!
 - To get the statistics for a specific user, use ``/diamond balance``.
-- To see the complete statistics of the economy game, use ``/diamond leaderboard``. There you can view the best players in the form of clear diagrams and also the best players with the longest streak! I wouldn't miss this if I were you! So what are you waiting for? Start with ``/diamond daily`` to create an economy game account in our economy database!
+- To see the complete statistics of the economy game, use ``/diamond leaderboard``. dThere you can view the best players in the form of clear diagrams and also the best players with the longest streak! I wouldn't miss this if I were you! So what are you waiting for? Start with ``/diamond daily`` to create an economy game account in our economy database!
 
 .. warning::
    If you try to steal diamonds from another user with ``/diamond steal [member]``, it can also happen that diamonds can be deducted from you.
