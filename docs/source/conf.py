@@ -50,8 +50,8 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_theme = "furo"
 html_static_path = ["_static"]
 
-html_logo = ".images/vysion.png"
-html_favicon = ".images/vysion1.ico"
+html_logo = "_static/vysion.png"
+html_favicon = "_static/vysion1.ico"
 
 # Napoleon settings
 napoleon_numpy_docstring = True
