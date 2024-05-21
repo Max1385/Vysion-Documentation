@@ -22,4 +22,3 @@ Here are a few links to help you get started.
 Getting help
 ------------
 - If you need help with anything, you are welcome to join our `discord support server <https://bit.ly/vysion-support>`_.
-- If you are looking for something specific, try to search something by `Index <https://vysion-docs.readthedocs.io/en/latest/genindex.html>`_.

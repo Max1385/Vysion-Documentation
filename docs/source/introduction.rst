@@ -10,8 +10,7 @@ Vysion must have been invited to the Discord server with our `invite link <https
 Set the language of Vysion in your server
 -----------
 
-You can execute the following slash command in your server to set the language of the bot. The default language is **English**.
+You can execute the following slash command in your server (as administrator) to set the language of the bot: ``/language [de/en]``.
 
-.. code-block:: python
-    
-    /language [de/en]
+.. note::
+    - The default language is **English**.
