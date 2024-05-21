@@ -21,19 +21,30 @@ author = "Max1385"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    # "builder",
     "sphinx.ext.autodoc",
-    "sphinx.ext.todo",
-    "sphinx.ext.viewcode",
-    "sphinx.ext.napoleon",
-    "sphinx.ext.autosummary",
+    "sphinx.ext.extlinks",
     "sphinx.ext.intersphinx",
-    "sphinx_autodoc_typehints",
+    "sphinx.ext.napoleon",
+    "sphinx.ext.viewcode",
+    "sphinx.ext.duration",
+    "sphinxcontrib_trio",
+    # "details",
+    "exception_hierarchy",
+    "attributetable",
+    "resourcelinks",
+    "nitpick_file_ignorer",
+    "myst_parser",
     "sphinx_copybutton",
+    "sphinxext.opengraph",
+    "sphinx_autodoc_typehints",
 ]
 
 simplify_optional_unions = True
 
 autodoc_member_order = "bysource"
+
+ogp_image = ""
 
 intersphinx_mapping = {
     "py": ("https://docs.python.org/3", None),
@@ -55,9 +66,8 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_theme = "furo"
 html_static_path = ["_static"]
 
-html_title = f"Vysion Documentation"
-html_logo = "_static/vysion.png"
-html_favicon = "_static/vysion1.ico"
+html_logo = ".images/vysion.png"
+html_favicon = ".images/vysion1.ico"
 
 # Napoleon settings
 napoleon_numpy_docstring = True
