@@ -1,7 +1,7 @@
 Welcome to Vysion's documentation!
 =========================================
 
-.. image:: images/welcome.png
+.. image:: /images/welcome.png
 
 .. toctree::
    :maxdepth: 2
