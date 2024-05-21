@@ -1,0 +1,8 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "Vysion"
+authors = [{name = "Max1385", email = "max1385@outlook.de"}]
+dynamic = ["version", "description"]
