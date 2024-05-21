@@ -21,30 +21,14 @@ author = "Max1385"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    # "builder",
-    "sphinx.ext.autodoc",
-    "sphinx.ext.extlinks",
-    "sphinx.ext.intersphinx",
-    "sphinx.ext.napoleon",
-    "sphinx.ext.viewcode",
-    "sphinx.ext.duration",
-    "sphinxcontrib_trio",
-    # "details",
-    "exception_hierarchy",
-    "attributetable",
-    "resourcelinks",
-    "nitpick_file_ignorer",
-    "myst_parser",
-    "sphinx_copybutton",
-    "sphinxext.opengraph",
-    "sphinx_autodoc_typehints",
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.intersphinx',
 ]
 
 simplify_optional_unions = True
 
 autodoc_member_order = "bysource"
-
-ogp_image = ""
 
 intersphinx_mapping = {
     "py": ("https://docs.python.org/3", None),
