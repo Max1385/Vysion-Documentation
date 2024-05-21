@@ -2,8 +2,6 @@ Welcome to Vysion's documentation!
 =========================================
 
 .. image:: _static/welcome.png
-   :alt: Welcome image
-   :class: center  # Optional, nur da um das Bild zu zentrieren.
 
 .. toctree::
    :maxdepth: 2
