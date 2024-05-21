@@ -1,24 +1,12 @@
-# Configuration file for the Sphinx documentation builder.
-
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# Project information
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-
 import os
 import sys
 from datetime import date
 
-sys.path.insert(0, os.path.abspath("../"))
+sys.path.insert(0, os.path.abspath('../..'))
 
 project = "Vysion"
 copyright = f"{date.today().year}, Max1385"
 author = "Max1385"
-
-
-# General configuration
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
     'sphinx.ext.autodoc',
@@ -27,7 +15,6 @@ extensions = [
 ]
 
 simplify_optional_unions = True
-
 autodoc_member_order = "bysource"
 
 intersphinx_mapping = {
@@ -42,16 +29,10 @@ intersphinx_mapping = {
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
-
-# Options for HTML output and furo customisation
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-# https://pradyunsg.me/furo/customisation/
-
 html_theme = "furo"
 html_static_path = ["_static"]
 
 html_logo = "_static/vysion.png"
 html_favicon = "_static/vysion1.ico"
 
-# Napoleon settings
 napoleon_numpy_docstring = True
