@@ -9,18 +9,15 @@ Economy System
 .. hint::
     With our economy system, you can collect as many diamonds as possible to stay one step ahead of other users!
 
-**How to use our economy system:**
-
-- Collect diamonds daily with `/diamond daily`
-- Steal diamonds from other users with `/diamond steal [member]`.
+- Collect diamonds daily with ``/diamond daily``
+- Steal diamonds from other users with ``/diamond steal [member]``.
+- Give other users a certain amount of diamonds: ``/diamond give [member] [amount] [description]`` -> amount = amount of diamonds, description = if you want to add a nice text.
+- Use ``/diamond event`` to play an event to either win diamonds or lose diamonds. We wish you good luck!
+- To get the statistics for a specific user, use ``/diamond balance``.
+- To see the complete statistics of the economy game, use ``/diamond leaderboard``. There you can view the best players in the form of clear diagrams and also the best players with the longest streak! I wouldn't miss this if I were you! So what are you waiting for? Start with `/diamond daily` to create an economy game account in our economy database!
 
 .. warning::
-    It could go wrong sometimes :)
-
-- Give other users a certain amount of diamonds: `/diamond give [member] [amount] [description]` -> amount = amount of diamonds, description = if you want to add a nice text.
-- Use `/diamond event` to play an event to either win diamonds or lose diamonds. We wish you good luck!
-- To get the statistics for a specific user, use `/diamond balance`.
-- To see the complete statistics of the economy game, use `/diamond leaderboard`. There you can view the best players in the form of clear diagrams and also the best players with the longest streak! I wouldn't miss this if I were you! So what are you waiting for? Start with `/diamond daily` to create an economy game account in our economy database!
+   If you try to steal diamonds from another user with ``/diamond steal [member]``, it can also happen that diamonds can be deducted from you.
 
 Feedback
 ------------
