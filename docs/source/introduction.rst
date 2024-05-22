@@ -5,7 +5,7 @@ This is the documentation for Vysion.
 Requirements
 -------------
 
-Vysion must have been invited to the Discord server with our `invite link <https://bit.ly/vysion-invite>`_.
+Vysion must have been invited to the Discord server with our `invite link <https://neon.ly/vysion-invite>`_.
 
 Set the language of Vysion in your server
 -----------

@@ -21,13 +21,13 @@ Here are a few links to help you get started.
 
 Getting help
 ------------
-- If you need help with anything, you are welcome to join our `discord support server <https://bit.ly/vysion-support>`_.
+- If you need help with anything, you are welcome to join our `discord support server <https://neon.ly/vysion-support>`_.
 
 Links
 ------------
-- `Support <https://bit.ly/vysion-support>`_ 
-- `Invite <https://bit.ly/vysion-support>`_
-- `Docs <https://bit.ly/vysion-support>`_
-- `Status <https://bit.ly/vysion-support>`_
-- `Privacy <https://bit.ly/vysion-support>`_
-- `Terms of Service <https://bit.ly/vysion-support>`_
+- `Support <https://neon.ly/vysion-support>`_ 
+- `Invite <https://neon.ly/vysion-invite>`_
+- `Docs <https://neon.ly/vysion-docs>`_
+- `Status <https://vysion.betteruptime.com/>`_
+- `Privacy <https://github.com/Vysion-Development/Privacy-Policy/blob/main/privacy-policy.md>`_
+- `Terms of Service <https://github.com/Vysion-Development/Terms-of-Service/blob/main/terms%20of%20service.md>`_
